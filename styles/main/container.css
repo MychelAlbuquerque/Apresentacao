@@ -1,0 +1,42 @@
+container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 4%;
+    margin-left: 13%;
+    
+}
+
+#apresentacao {
+    width: 110%;
+    margin-top: 5%;
+    color: #33312F;
+}
+#apresentacao > p{
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#apresentacao > h1{
+    font-size: 3em;
+    font-family: 'Outfit', sans-serif; 
+}
+
+#botoes{
+    display: flex;
+    width: 45%;
+    margin: auto;  
+    margin-top: 5%;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+#simbolos{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#foto{
+    display: flex;
+}
