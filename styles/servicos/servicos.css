@@ -1,0 +1,35 @@
+.servicos{
+    margin: auto;
+    width: 75%;
+    color: #33312F;    
+}
+.descricao-servicos{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.descricao-servicos>h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8%;
+}
+.box{
+    width: 20%;
+    padding: 1%;
+    background-color: #33312F;
+    box-shadow: 1px 1px 3px #FF7816;
+    border-radius: 3%;
+    border: 3px solid #26B9AE;
+    color:#F5FBFD;
+}
+h3{
+    margin-top: 10%;
+    margin-bottom:10% ;
+}
+
+ul{
+    margin-top: 2%;
+    list-style: none;
+}
+li{
+    padding: 2%;
+}
