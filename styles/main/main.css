@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.main{
+.background{
     width: 95%;
     border-radius: 1%;
-    background-color: #bde3f326 ;
+    background-color: #a3d9f026 ;
     margin: 1% auto;
     padding: 1%;
     box-shadow: 3px 3px 3px #cad5da;

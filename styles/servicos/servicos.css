@@ -16,12 +16,12 @@
     width: 20%;
     padding: 1%;
     background-color: #33312F;
-    box-shadow: 1px 1px 3px #FF7816;
     border-radius: 3%;
+    box-shadow: 1px 1px 3px #FF7816;
     border: 3px solid #26B9AE;
     color:#F5FBFD;
 }
-h3{
+.box > h3{
     margin-top: 10%;
     margin-bottom:10% ;
 }
