@@ -22,6 +22,9 @@
     <!--Estilo formulario-->
     <link rel="stylesheet" href="styles/formulario/formulario.css">
 
+    <!--JS Dark Mode-->
+    <script src="scripts/script.js"></script>
+
     <!--Fontes Google-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +36,7 @@
 <body>
     <!--Painel principal-->
     <main class="background">
+        
         <div class="bar">
             <div class="logo">
                 <h2> &ltmychel&gt</h2>
@@ -43,7 +47,11 @@
                 <a href="#box-sobre">Sobre</a>
                 <a href="#box-portifolio">Portifólio</a>
                 <a href="#background-formulario" id="contato">Contato</a>
+                <a id="darkmode" onclick="ativou()">Dark</a>
             </div>
+            
+                
+            
 
 
         </div>
@@ -56,7 +64,7 @@
                     <p>Desenvolverdor Front-End. <br>HTML, CSS e Javascript </p>
                 </div>
                 <div id="botoes">
-                    <a href="src/Resume.pdf" class="link">Contrate</a>
+                    <a href="src/Resume.pdf" target="_blank" class="link">Contrate</a>
                     <a href="#box-sobre" class="link">Saiba mais</a>
                 </div>
                 <div id="simbolos">

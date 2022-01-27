@@ -1,8 +1,8 @@
 #box-portifolio{
   width: 75%;
   margin: auto;
-  border: 3px solid #FF7816;
-  box-shadow: 1px 1px 3px #2196F3;
+  border: 3px solid var(--laranja);
+  box-shadow: 1px 1px 3px var(--azul);
 }
 
 #box-portifolio h3{
