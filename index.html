@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="styles/sobre/sobre.css">
     <!--Estilo Seção portifolio-->
     <link rel="stylesheet" href="styles/portifolio/portifolio.css">
+    <!--Estilo formulario-->
+    <link rel="stylesheet" href="styles/formulario/formulario.css">
 
     <!--Fontes Google-->
 
@@ -37,10 +39,10 @@
             </div>
             <div class="menu">
                 <a href="">Início</a>
+                <a href="#descricao-servicos">Serviços</a>
                 <a href="#box-sobre">Sobre</a>
                 <a href="#box-portifolio">Portifólio</a>
-                <a href="#descricao-servicos">Serviços</a>
-                <a href="" id="contato">Contato</a>
+                <a href="#background-formulario" id="contato">Contato</a>
             </div>
 
 
@@ -54,8 +56,8 @@
                     <p>Desenvolverdor Front-End. <br>HTML, CSS e Javascript </p>
                 </div>
                 <div id="botoes">
-                    <a href="" class="link">Contrate</a>
-                    <a href="" class="link">Saiba mais</a>
+                    <a href="#background-formulario" class="link">Contrate</a>
+                    <a href="#box-sobre" class="link">Saiba mais</a>
                 </div>
                 <div id="simbolos">
                     <img src="src/img/html.png" alt="">
@@ -140,7 +142,7 @@
         </section>
     </section>
 
-    <!--Portifólio-->
+    <!--Seção Portifólio-->
     <section class="background">
         <div class="box" id="box-portifolio">
             <div>
@@ -169,6 +171,32 @@
 
     </section>
 
+    <!--Formulário-->
+
+    <section class="background" id="background-formulario">
+
+        <section>
+            <div class="box" id="box-formulario">
+                <img src="src/img/formulario.png" alt="">
+                <h3>Me fala o que você precisa:_</h3>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" />
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                    <button type="submit">Enviar sua mensagem</button>
+                </form>
+
+            </div>
+            <div id="img-formulario">
+                <img src="src/img/suporte.png" alt="">
+            </div>
+        </section>
+    </section>
+
+    
 
 </body>
 
