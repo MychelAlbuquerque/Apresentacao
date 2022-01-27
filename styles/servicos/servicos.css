@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin-top: 1%;
 }
-.descricao-servicos>h2{
+.descricao-servicos h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 8%;
 }
@@ -20,7 +20,7 @@
     color:#F5FBFD;
     
 }
-.box > h3{
+.box h3{
     margin-top: 10%;
     margin-bottom:10% ;
 }
