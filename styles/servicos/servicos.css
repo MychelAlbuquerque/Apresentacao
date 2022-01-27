@@ -1,9 +1,7 @@
-.servicos{
-    margin: auto;
-    width: 75%;
-    color: #33312F;    
-}
+
 .descricao-servicos{
+    width: 75%;
+    margin: auto;
     display:flex;
     justify-content: space-between;
     margin-top: 1%;
@@ -20,6 +18,7 @@
     box-shadow: 1px 1px 3px #FF7816;
     border: 3px solid #26B9AE;
     color:#F5FBFD;
+    
 }
 .box > h3{
     margin-top: 10%;

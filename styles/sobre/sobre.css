@@ -1,13 +1,15 @@
-#background-sobre{
+section{
     display: flex;
+    width: 75%;
+    margin: auto;
     justify-content: space-between;
 }
 #box-sobre{
     box-shadow: 1px 1px 3px #FF7816;
     border: 3px solid #2196F3;  
-    margin-left: 12.5%;
+    
     margin-top: 1%;
-    width: 40%;
+    width: 60%;
 }
 #box-sobre>h3{
     margin-top: 3%;
@@ -18,7 +20,9 @@
     margin-top: 3%;
     
 }
+
 #img-computer{
-    margin: auto;
+    margin:auto;
+    
 }
 
