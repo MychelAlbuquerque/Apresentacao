@@ -1,15 +1,15 @@
-#box-portifolio{
+#box-portfolio{
   width: 75%;
   margin: auto;
   border: 3px solid var(--laranja);
   box-shadow: 1px 1px 3px var(--azul);
 }
 
-#box-portifolio h3{
+#box-portfolio h3{
   margin-top: 2%;
   margin-bottom: 3%;
 }
-#box-portifolio p{
+#box-portfolio p{
   margin-top: 2%;
   margin-bottom: 3%;
 }

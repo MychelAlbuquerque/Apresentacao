@@ -1,6 +1,6 @@
 let dark = false;
 
-function ativou() {
+function darkMode() {
   if (!dark) {
     dark = true;
     document.body.style.setProperty('--background', '#33312F');

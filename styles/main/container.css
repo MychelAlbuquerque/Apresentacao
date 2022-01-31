@@ -5,21 +5,21 @@ container{
     margin: 3% auto 1% auto;
 }
 
-#apresentacao {
+#presentation {
     width: 110%;
     margin-top: 5%;
     color: var(--letra-escura);
 }
-#apresentacao p{
+#presentation p{
     margin-top: 4%;
     font-family: Arial, Helvetica, sans-serif;
 }
-#apresentacao h1{
+#presentation h1{
     font-size: 3em;
     font-family: 'Outfit', sans-serif; 
 }
 
-#botoes{
+#buttons{
     display: flex;
     width: 45%;
     margin: auto;  
@@ -28,13 +28,13 @@ container{
     justify-content: space-between;
 }
 
-#simbolos{
+#symbols{
     margin-top: 10%;
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-#foto{
+#photo{
     display: flex;
 }

@@ -1,12 +1,12 @@
 
-.descricao-servicos{
+.services-description{
     width: 75%;
     margin: auto;
     display:flex;
     justify-content: space-between;
     margin-top: 1%;
 }
-.descricao-servicos h2{
+.services-description h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 8%;
 }
