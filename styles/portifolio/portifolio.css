@@ -1,10 +1,7 @@
 #box-portfolio{
   width: 75%;
   margin: auto;
-  border: 3px solid var(--laranja);
-  box-shadow: 1px 1px 3px var(--azul);
 }
-
 #box-portfolio h3{
   margin-top: 2%;
   margin-bottom: 3%;
