@@ -1,4 +1,3 @@
-
 .services-description{
     width: 75%;
     margin: auto;
@@ -13,18 +12,15 @@
 .box{
     width: 20%;
     padding: 1%;
-    background-color: #33312F;
+    background-color: var(--boxColor);
     border-radius: 3%;
-    box-shadow: 1px 1px 3px var(--laranja);
     border: 3px solid #26B9AE;
-    color: var(--letra-clara);
-    
+    color: #F5FBFD;
 }
 .box h3{
     margin-top: 10%;
     margin-bottom:10% ;
 }
-
 ul{
     margin-top: 2%;
     list-style: none;

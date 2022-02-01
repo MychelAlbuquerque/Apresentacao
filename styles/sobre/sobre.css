@@ -4,10 +4,7 @@ section{
     margin: auto;
     justify-content: space-between;
 }
-#box-about{
-    box-shadow: 1px 1px 3px var(--laranja);
-    border: 3px solid var(--azul);  
-    
+#box-about{    
     margin-top: 1%;
     width: 60%;
 }
@@ -18,11 +15,8 @@ section{
 #box-about p{
     text-align: justify;
     margin-top: 3%;
-    
 }
-
 #img-computer{
     margin:auto;
-    
 }
 
