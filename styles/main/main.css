@@ -11,6 +11,8 @@
     --logo : var(--boxColor);
     --button: #FF7816;
     --letter: var(--boxColor);
+
+    --maxWidth: 420px;
 }
 body{
     background-color: var(--body) ;
@@ -42,10 +44,5 @@ main a:hover{
     border: 2px solid var(--button);
     color: #2196F3;
 }
-@media(max-width: 420px){
-    .background{
-        width:90%;
-        
-    }
-}
+
 
