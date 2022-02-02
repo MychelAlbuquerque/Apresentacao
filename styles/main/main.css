@@ -16,7 +16,7 @@ body{
     background-color: var(--body) ;
 }
 .background{
-    width: 95%;
+    width: 1280px;
     border-radius: 1%;
     background-color: var(--background) ;
     margin: 1% auto;
@@ -41,5 +41,11 @@ main a:hover{
     background-color: white;
     border: 2px solid var(--button);
     color: #2196F3;
+}
+@media(max-width: 420px){
+    .background{
+        width:90%;
+        
+    }
 }
 

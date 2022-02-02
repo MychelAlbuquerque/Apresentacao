@@ -34,3 +34,45 @@ container{
 #photo{
     display: flex;
 }
+@media(max-width:420px){
+    container{
+        flex-direction: column;
+        margin:auto;
+        width: 90%;
+    }
+    #presentation{
+        width: 100%;
+        margin-top: 15%;
+    }
+    #presentation h1{
+        margin:auto ;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    #presentation p{
+        margin-top: 4%;
+        text-align: center;
+    }
+    #buttons{
+        width: 100%;
+        margin: auto;  
+        margin-top: 5%;
+        justify-content: space-around;
+    }
+
+    #symbols{
+        margin-top:10%;
+        margin-bottom: 10%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    #symbols img{
+        width: 48px;
+        height: auto;
+    }
+    #photo img{
+        width:250px;
+        height: auto;
+        margin: auto auto 5% auto;
+    }
+}
