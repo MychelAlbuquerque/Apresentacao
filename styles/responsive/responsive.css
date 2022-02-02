@@ -87,10 +87,49 @@
     
   } 
   .box{
-    width: 60%;
+    width: 90%;
   }
   .services-description h2{
     margin: 2% auto 2% auto;
   }
+
+  /*about*/
+  section{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  #box-about{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /*portfolio*/
   
+  #box-portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+  }  
+  .gifs{
+    flex-direction: column;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  /*form*/
+  #box-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #img-form{
+    margin-top: 3%;
+  }
+
 }
