@@ -6,12 +6,18 @@
     align-items: center;
 } 
 .logo{
-    font-family: 'Shadows Into Light', cursive;
+    
+    font-family: 'Shadows Into Light', cursive ;
     color:var(--logo);
     font-size: 1.5em;
     display: inline-block;
     margin-left: 1%;    
 }
+.logo h2{
+    font-weight: bold;
+}
+
+
 .menu{
     display: flex;
     width: 65%;

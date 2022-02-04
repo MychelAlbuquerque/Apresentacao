@@ -6,7 +6,8 @@
     margin-top: 1%;
 }
 .services-description h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
     margin-top: 8%;
     color: var(--letter);
 }
@@ -21,11 +22,18 @@
 .box h3{
     margin-top: 10%;
     margin-bottom:10% ;
+    font-weight: bold;
+    font-size: 1.2em;
+    
 }
 ul{
     margin-top: 2%;
     list-style: none;
+    margin-bottom: 1%;
+    padding: 0;
+    
 }
 li{
     padding: 2%;
+    margin-left: 0;
 }
