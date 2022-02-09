@@ -17,9 +17,7 @@ const searchAddress = () => {
     alert('Cep inválido - Preencha novamente')
   } else {
 
-    const url = `https://viacep.com.br/ws/${zipCode}/json/`;
-
-    fetch(url).then((response) => {
+    fetch(`https://viacep.com.br/ws/${zipCode}/json/`).then((response) => {
       return response.json();
     }).then(jsonbody => {
       verifyAddress(jsonbody);
