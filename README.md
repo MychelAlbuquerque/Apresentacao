@@ -9,19 +9,26 @@ Caso tenha interesse em clonar o repositório e rodar direto na sua máquina par
 1 - Na página principal do repositório clique no botão verde "code", em seguida utilize a opção "Download ZIP"<br>
 2 - Após extrair os arquivos, você pode abrir o arquivo "index.html" direto no seu navegador. 
 
-![clone](https://user-images.githubusercontent.com/94093354/151452736-85b49fdd-6cdd-4605-bfa9-e2dac014126d.gif)
+![download rep](https://user-images.githubusercontent.com/94093354/153206488-a4b88708-d505-455b-b76d-5cb22b33f0a3.gif)
 
 ### Modo Dark: 
 É possível acessar por meio do botão no canto superior direito da página.
 
-![dark](https://user-images.githubusercontent.com/94093354/151455914-b4280a17-701b-4778-8b74-e7591c28b208.gif)
+![dark](https://user-images.githubusercontent.com/94093354/153207021-f1249a09-6d05-4661-a028-52c0da9f1d1a.gif)
 
 ### Currículo:
-O botão "contrate" permite o download do currículo em PDF.
+O botão "Saiba mais" permite o download do currículo em PDF.
 
-![curriculo](https://user-images.githubusercontent.com/94093354/151456493-a7940e93-55b0-4071-b251-03b2a663fe1e.gif)
+![resume](https://user-images.githubusercontent.com/94093354/153207548-e0d118e4-0afa-40ac-aaa7-8a2ef8e567ce.gif)
 
 ### Seção Portifólio:
 Incluir alguns projetos que já subi anteriormente aqui no GitHub. Clicando em cada imagem é possível acessar o repositório. 
 
-![portifolio](https://user-images.githubusercontent.com/94093354/151457191-8367afc9-87fc-41ec-80f2-65ffe4839a72.gif)
+![reps](https://user-images.githubusercontent.com/94093354/153208013-9551c73d-67c1-4cfd-a71f-de845f78c7e7.gif)
+
+### Hire Me Page:
+Clicando no botão "Contrate" você é direcionado para outra página que simula o envio de um orçamento. 
+Nessa página é possível consumir duas API's. Após preencher o CEP o endereço é preenchido automaticamente através da API. 
+Outra API é a conversão de moedas, após marcar o checkbox e o valor uma nova Div é incluida informando o valor atual na moeda oposta. 
+
+![hire](https://user-images.githubusercontent.com/94093354/153215609-5b413640-9bbf-4b72-9569-9e4d8d15f39a.gif)
