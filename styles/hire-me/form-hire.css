@@ -15,12 +15,19 @@
   display: flex;
   flex-direction: column;
 }
-textarea{
-  margin-bottom: 5%;
+#budget{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#currency{
+  margin-top: 1%;
 }
 label{
   margin-top: 2%;
 }
 #msg{
   height: 50px;
+}
+#result{
+  margin-bottom: 5%;
 }

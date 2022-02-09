@@ -63,14 +63,26 @@
           <input type="text" id="name" required />
 
           <label for="zipCode">CEP:</label>
-          <input type="text" id="zipCode" required/>
+          <input type="number" id="zipCode" required/>
 
           <label for="address">Endereço:</label>
           <input type="text" id="address" required/>
 
           <label for="msg">Mensagem:</label>
           <textarea id="msg" required></textarea>
+          
+          <label for="budget">Valor da proposta:</label>
+          <div id="currency">
+            <input type="radio" name="currecy" id="dolar" required/>
+            <label for="dolar">Dólar</label>
+            <input type="radio" name="currecy" id="real" required/>
+            <label for="real">Real</label>
+          </div>
+          <input type="number" id="budget" required/>
+          <div id="result">
 
+          </div>
+          
           <button type="submit" id ="send">Enviar sua mensagem</button>
         </form>
       </div>
@@ -82,6 +94,7 @@
   <script src="address.js">  </script>
   <script src="sendForm.js">  </script>
   <script src="darkMode.js"></script>
+  <script src="currency.js"></script>
 
 </body>
 
