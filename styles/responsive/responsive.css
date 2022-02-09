@@ -1,0 +1,139 @@
+@media(max-width: 420px){
+
+  /*main*/
+  .background{
+      width:90%;   
+  }
+  
+  
+  /*navbar*/
+  .logo{
+    margin-bottom: 5%;
+  }
+  .bar{
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: wrap; 
+      align-items: center;
+      
+  }
+  .menu{
+      width: 90%;
+      flex-direction: column;
+      flex-wrap: wrap; 
+      align-items: initial;
+      
+  }
+  .menu a{
+      width: 100%;
+      margin-bottom: 2%;
+  }
+  #darkmode{
+      width: 100%;
+      margin: auto;
+  }
+  
+
+  /*container*/
+  container{
+      flex-direction: column;
+      margin:auto;
+      width: 90%;
+  }
+  #presentation{
+      width: 100%;
+      margin-top: 15%;
+  }
+  #presentation h1{
+      margin:auto ;
+      font-size: 1.8em;
+      text-align: center;
+  }
+  #presentation p{
+      margin-top: 4%;
+      text-align: center;
+  }
+  #buttons{
+      width: 100%;
+      margin: auto;  
+      margin-top: 5%;
+      justify-content: space-around;
+  }
+
+  #symbols{
+      margin-top:10%;
+      margin-bottom: 10%;
+      width: 100%;
+      justify-content: space-around;
+  }
+  #symbols img{
+      width: 48px;
+      height: auto;
+  }
+  #photo img{
+      width:250px;
+      height: auto;
+      margin: auto auto 5% auto;
+  }
+
+
+  /*services*/
+  .services-description{
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    
+  } 
+  .box{
+    width: 90%;
+  }
+  .services-description h2{
+    margin: 2% auto 2% auto;
+  }
+
+  /*about*/
+  section{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  #box-about{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  /*portfolio*/
+  
+  #box-portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+  }  
+  .gifs{
+    flex-direction: column;
+  }
+  video{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  /*form*/
+  #box-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #img-form{
+    margin-top: 3%;
+  }
+
+  /*box-hire*/
+  #box-hire{
+    width: 100%;
+  }
+}

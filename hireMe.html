@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Personal Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mychel<Hire Me></title>
+  <meta name="description" content="Personal Page">
+
+  <!-- FONTS: -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap">
+
+  <!-- STYLES: -->
+  <!--main style -->
+  <link rel="stylesheet" href="styles/main/main.css">
+  <!--logo and navbar style-->
+  <link rel="stylesheet" href="styles/main/navbar.css">
+  <!--presentation-->
+  <link rel="stylesheet" href="styles/main/container.css">
+  <!--responsive layout-->
+  <link rel="stylesheet" href="styles/responsive/responsive.css">
+  <!--services-->
+  <link rel="stylesheet" href="styles/services/services.css">
+  <!--form-hire-->
+  <link rel="stylesheet" href="styles/hire-me/form-hire.css">
+  <!--responsive-->
+  <link rel="stylesheet" href="styles/responsive/responsive.css">
+
+  
+
+</head>
+
+<body>
+  <!--main panel-->
+  <main class="background" id="background">
+
+    <div class="bar">
+      <div class="logo" id="logo">
+        <h2> &ltmychel&gt</h2>
+      </div>
+      <div class="menu">
+
+        <a href="index.html" target="_self">Início</a>
+        <a href="index.html#services-description">Serviços</a>
+        <a href="index.html#background-about">Sobre</a>
+        <a href="index.html#background-portfolio">Portifólio</a>
+        <a href="index.html#background-form" id="contato">Contato</a>
+        <a href="#" id="darkmode" onclick="darkMode ()">Dark</a>
+      </div>
+
+    </div>
+
+    <!--form-hire-->
+    <section id="background-hire">
+      <div class="box" id="box-hire">
+        <h3>Solicite seu orçamento ou deixe uma proposta_</h3>
+        <form id="form-hire">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" required />
+
+          <label for="zipCode">CEP:</label>
+          <input type="number" id="zipCode" required/>
+
+          <label for="address">Endereço:</label>
+          <input type="text" id="address" required/>
+
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg" required></textarea>
+          
+          <label for="budget">Valor da proposta:</label>
+          <div id="currency">
+            <input type="radio" name="currecy" id="dolar" required/>
+            <label for="dolar">Dólar</label>
+            <input type="radio" name="currecy" id="real" required/>
+            <label for="real">Real</label>
+          </div>
+          <input type="number" id="budget" required/>
+          <div id="result">
+
+          </div>
+          
+          <button type="submit" id ="send">Enviar sua mensagem</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <!-- SCRIPTS: -->
+  <!--API Address-->
+  <script src="address.js">  </script>
+  <script src="sendForm.js">  </script>
+  <script src="darkMode.js"></script>
+  <script src="currency.js"></script>
+
+</body>
+
+</html>

@@ -16,6 +16,7 @@ container{
 #presentation h1{
     font-size: 3em;
     font-family: 'Outfit', sans-serif; 
+    font-weight: bold;
 }
 #buttons{
     display: flex;
@@ -33,4 +34,7 @@ container{
 }
 #photo{
     display: flex;
+}
+@media(max-width:420px){
+    
 }

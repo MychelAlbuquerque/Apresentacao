@@ -1,0 +1,33 @@
+#background-hire{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+#box-hire{
+  width: 40%;
+  
+}
+#box-hire h3{
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+#form-hire{
+  display: flex;
+  flex-direction: column;
+}
+#budget{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#currency{
+  margin-top: 1%;
+}
+label{
+  margin-top: 2%;
+}
+#msg{
+  height: 50px;
+}
+#result{
+  margin-bottom: 5%;
+}
