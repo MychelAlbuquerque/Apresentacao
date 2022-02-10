@@ -25,6 +25,7 @@
 }
 .menu > a{
     margin: auto;
+    margin-left: 2%;
 }
 a{
     text-decoration: none;
@@ -45,8 +46,9 @@ main a:hover{
 }
 
 #darkmode{
-    margin-left: 22%;
+    margin-left: 18%;
     width: 8%;
+    min-width:55px ;
     color: white;
     background-color: var(--boxColor);
 }
