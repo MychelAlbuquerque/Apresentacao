@@ -1,8 +1,17 @@
-@media(max-width: 420px){
-
+@media only screen and (max-width: 920px){
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
   /*main*/
+  body{
+    margin: auto;
+    width: 95%;
+  }
   .background{
-      width:90%;   
+    margin: 2% auto;
+    width:100%; 
   }
   
   
@@ -46,7 +55,7 @@
   }
   #presentation h1{
       margin:auto ;
-      font-size: 1.8em;
+      font-size: 2em;
       text-align: center;
   }
   #presentation p{
@@ -57,21 +66,27 @@
       width: 100%;
       margin: auto;  
       margin-top: 5%;
-      justify-content: space-around;
+      justify-content: space-between;
+      display: flex;  
+  }
+  #buttons a{
+    width: 40%;
+    min-width: 96px;
+    vertical-align: middle;
+    
   }
 
   #symbols{
-      margin-top:10%;
-      margin-bottom: 10%;
+      margin: 10% auto 10% auto;
       width: 100%;
-      justify-content: space-around;
+      max-width: 314px;
   }
   #symbols img{
       width: 48px;
       height: auto;
   }
   #photo img{
-      width:250px;
+      width:100%;
       height: auto;
       margin: auto auto 5% auto;
   }

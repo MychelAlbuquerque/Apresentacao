@@ -20,7 +20,8 @@ container{
 }
 #buttons{
     display: flex;
-    width: 45%;
+    width: 80%;
+    max-width: 314px;
     margin: auto;  
     margin-top: 5%;
     margin-left: 0;
@@ -28,13 +29,11 @@ container{
 }
 #symbols{
     margin-top: 10%;
-    width: 50%;
+    width: 100%;
+    max-width: 314px;
     display: flex;
     justify-content: space-between;
 }
 #photo{
     display: flex;
-}
-@media(max-width:420px){
-    
 }
