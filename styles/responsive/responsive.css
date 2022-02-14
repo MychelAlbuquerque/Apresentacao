@@ -1,4 +1,4 @@
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 1023px){
   *{
     margin:0;
     padding: 0;
@@ -24,22 +24,27 @@
       flex-direction: column;
       flex-wrap: wrap; 
       align-items: center;
+      margin: auto;
       
   }
   .menu{
+    
       width: 90%;
       flex-direction: column;
       flex-wrap: wrap; 
-      align-items: initial;
+      
+      
       
   }
   .menu a{
       width: 100%;
       margin-bottom: 2%;
+      margin-left: 0;
+      
   }
   #darkmode{
-      width: 100%;
-      margin: auto;
+      width:100%;
+      margin-left: 0;
   }
   
 
@@ -86,7 +91,7 @@
       height: auto;
   }
   #photo img{
-      width:100%;
+      width:70%;
       height: auto;
       margin: auto auto 5% auto;
   }
@@ -101,8 +106,9 @@
     margin-top: 1%;
     
   } 
-  .box{
-    width: 90%;
+  #box-services{
+    width: 40%;
+    text-align: center;
   }
   .services-description h2{
     margin: 2% auto 2% auto;
@@ -152,3 +158,10 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 425px){
+  #box-services{
+    width: 90%;
+    text-align: center;
+  }
+}
+
