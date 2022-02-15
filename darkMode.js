@@ -3,7 +3,7 @@ let dark = false;
 function darkMode() {
 
   let bodyDark = '#101418';
-  let bodyBright = '#ffffff';
+  let bodyBright = '#c7c7c7';
 
   let backgroundDark = '#0a0e16';
   let backgroundBright = '#c2ecfd';
