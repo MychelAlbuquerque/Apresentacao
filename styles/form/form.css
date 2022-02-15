@@ -16,7 +16,22 @@ form{
 button{
   margin-top: 2%;
   width: 40%;
+  border-radius: 10px;
+  background-color: #26B9AE;
+  color: white;
+  border: none;
+  height: 30px;
+  transition: 0.7s;
+}
+button:hover{
+  background-color: #95f1eb;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
 input, textarea{
-  margin: 0 3% 3% 0
+  margin: 0 3% 3% 0;
+  border-radius: 10px;
+  height: 30px;
+  border:none;
+  box-shadow: none;
 }

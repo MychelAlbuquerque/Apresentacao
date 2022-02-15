@@ -31,6 +31,22 @@ label{
 #result{
   margin-bottom: 5%;
 }
-input{
-  background: ;
+input, textarea{
+  border-radius: 10px;
+  height: 30px;
+  border:none;
+  box-shadow: none;
+}
+button{
+  border-radius: 10px;
+  background-color: #26B9AE;
+  color: white;
+  border: none;
+  height: 30px;
+  transition: 0.7s;
+}
+button:hover{
+  background-color: #95f1eb;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
 }
