@@ -1,4 +1,4 @@
-# Hired-me (página de apresentação)
+# Hire me (página de apresentação)
 
 Esse foi um projeto com objetivo de colocar em prática o aprendizado de HTML, CSS e um pouco de Javascript. 
 Trata-se de uma página simples e que ainda possui aspectos a serem melhorados como exemplo a responsividade.
