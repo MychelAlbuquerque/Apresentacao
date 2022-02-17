@@ -39,23 +39,18 @@
     padding: 5px;
   }
   .menu{
-    
-      width: 90%;
-      flex-direction: column;
-      flex-wrap: wrap; 
-      
-      
-      
+    width: 90%;
+    display: flex;
+    flex-direction: column;
   }
   .menu a{
-      width: 100%;
-      margin-bottom: 2%;
-      margin-left: 0;
-      
+    width: 100%;
+    max-width: 470px;
+    margin: 2% 0;  
   }
   #darkmode{
-      width:100%;
-      margin-left: 0;
+    width:100%;
+    margin: 2% 0;
   }
   
 
@@ -65,46 +60,59 @@
       margin:auto;
       width: 90%;
   }
+  #photo{
+    margin-top: 3%;
+    order: -1;
+  }
+  .box-presentation{
+    display: flex;
+    flex-direction: column;
+  }
   #presentation{
-      width: 100%;
-      margin-top: 15%;
+    width: 100%;
+      
   }
   #presentation h1{
-      margin:auto ;
-      font-size: 2em;
-      text-align: center;
+    margin:auto ;
+    font-size: 2em;
+    text-align: center;
   }
   #presentation p{
-      margin-top: 4%;
-      text-align: center;
+    margin-top: 4%;
+    text-align: center;
   }
   #buttons{
-      width: 100%;
-      margin: auto;  
-      margin-top: 5%;
-      justify-content: space-between;
-      display: flex;  
+    order: 3;
+    width: 100%;
+    margin: 1% auto ;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
   }
+
   #buttons a{
-    width: 40%;
+    width: 100%;
     min-width: 96px;
     vertical-align: middle;
     
   }
 
   #symbols{
-      margin: 10% auto 10% auto;
-      width: 100%;
-      max-width: 314px;
+      
+    margin: 1% auto 2% auto;
+    width: 100%;
+    max-width: 314px;
   }
   #symbols img{
-      width: 48px;
-      height: auto;
+    width: 48px;
+    height: auto;
   }
   #photo img{
-      width:70%;
-      height: auto;
-      margin: auto auto 5% auto;
+    width:70%;
+    height: auto;
+    margin: auto auto 5% auto;
   }
 
 
