@@ -1,8 +1,9 @@
 # Hire me (página de apresentação)
 
+(README english version: https://github.com/MychelAlbuquerque/mychel/blob/master/README%20english.md) 
+
 Esse foi um projeto com objetivo de colocar em prática o aprendizado de HTML, CSS e um pouco de Javascript. 
-Trata-se de uma página simples e que ainda possui aspectos a serem melhorados como exemplo a responsividade.
-Conta com apresentação, amostra de portifólio e algumas outras funções que estão detalhadas aqui abaixo. Conforme eu for avançando nos estudos irei implementando mais opções e corrigindo o que for necessário. :D
+Trata-se de uma página simples mas conta com apresentação, amostra de portifólio e algumas outras funções que estão detalhadas aqui abaixo. Conforme eu for avançando nos estudos irei implementando mais opções e corrigindo o que for necessário. :D
 
 Pode ser acessado através do link: https://mychelalbuquerque.github.io/mychel/
 
@@ -24,7 +25,7 @@ O botão "Saiba mais" permite o download do currículo em PDF.
 ![resume](https://user-images.githubusercontent.com/94093354/153207548-e0d118e4-0afa-40ac-aaa7-8a2ef8e567ce.gif)
 
 ### Seção Portifólio:
-Incluir alguns projetos que já subi anteriormente aqui no GitHub. Clicando em cada imagem é possível acessar o repositório. 
+Inclui alguns projetos que já subi anteriormente aqui no GitHub. Clicando em cada imagem é possível acessar o repositório. 
 
 ![reps](https://user-images.githubusercontent.com/94093354/153208013-9551c73d-67c1-4cfd-a71f-de845f78c7e7.gif)
 
