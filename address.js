@@ -14,7 +14,7 @@ const searchAddress = () => {
   const zipCode = document.getElementById('zipCode').value;
 
   if (zipCode.length != 8) {
-    alert('Cep inválido - Preencha novamente')
+    alert('Cep inválido - Preencha novamente, apenas números. Exemplo: 123456000')
   } else {
 
     fetch(`https://viacep.com.br/ws/${zipCode}/json/`).then((response) => {
