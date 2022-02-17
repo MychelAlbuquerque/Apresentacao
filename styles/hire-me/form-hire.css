@@ -55,3 +55,6 @@ input, textarea{
 #back{
   background-color: var(--button);
 }
+#box-address{
+  margin-top: 2%;
+}

@@ -1,12 +1,13 @@
-let street = 'logradouro';
-let loc = 'bairro';
-let city = 'cidade';
-
+let street = null;
+let loc = null;
+let city = null;
+let box = document.getElementById('box-address');
 
 const verifyAddress = (a) => {
-  if (a.logradouro) street = a.logradouro;
-  if (a.bairro) loc = a.bairro;
-  if (a.localidade) city = a.localidade;
+  
+  a.logradouro ? street = a.logradouro : street = null; 
+  a.bairro ? loc = a.bairro: loc = null;
+  a.localidade? city = a.localidade: city =null;
 }
 
 const searchAddress = () => {
@@ -21,8 +22,10 @@ const searchAddress = () => {
       return response.json();
     }).then(jsonbody => {
       verifyAddress(jsonbody);
-      let fullAddress = `${street}, ${loc}, ${city}`;
-      document.getElementById('address').value = fullAddress;
+      box.innerHTML = `Endereço: <br> ${street ? street + ', ' : ''} ${loc ? loc + ', ' : ''}${city ? city + '.' : '.'}`
+
+
+
     })
   }
 
