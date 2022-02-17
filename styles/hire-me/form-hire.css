@@ -21,7 +21,19 @@
 }
 #currency{
   margin-top: 1%;
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  align-items: center;
 }
+#flexSwitchCheckDefault{
+  background-color: #26B9AE;
+  
+}
+p{
+  padding: 10% 0 0 0;
+}
+
 label{
   margin-top: 2%;
 }
@@ -29,7 +41,7 @@ label{
   height: 50px;
 }
 #result{
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 input, textarea{
   border-radius: 10px;

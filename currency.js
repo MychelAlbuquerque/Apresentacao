@@ -5,12 +5,12 @@ const convertCurrency = () => {
   let result = document.getElementById('result');
   let printCurrency = null;
 
-  if (document.getElementById('dolar').checked) {
-    printCurrency = 'reais'
-    currency = 'USD-BRL';
-  } else {
+  if (document.getElementById('flexSwitchCheckDefault').checked) {
     printCurrency = 'dólar'
     currency = 'BRL-USD';
+  } else {
+    printCurrency = 'real';
+    currency = 'USD-BRL';
   }
   
   fetch(`https://economia.awesomeapi.com.br/${currency}/1?format=json`).then((response) => {
@@ -18,12 +18,14 @@ const convertCurrency = () => {
   }).then(jsonbody => {
     convert = jsonbody[0].low;
     convert *= value;
-    result.innerHTML = `Sua proposta em ${printCurrency}: <br> ${convert.toFixed(2)}`
+    result.innerHTML = `Convertendo para ${printCurrency}: <br> ${convert.toFixed(2)}`
   })
 }
 
 
-document.getElementById('budget').addEventListener('focusout', convertCurrency);
+document.getElementById('budget').addEventListener('input', convertCurrency);
+
+document.getElementById('flexSwitchCheckDefault').addEventListener('click', convertCurrency);
 
 
 
