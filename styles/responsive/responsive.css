@@ -24,8 +24,19 @@
       flex-direction: column;
       flex-wrap: wrap; 
       align-items: center;
-      margin: auto;
-      
+      margin: auto; 
+  }
+
+  #bar-hire{
+    flex-direction: row;
+    align-items:center ;
+    width: 90%; 
+  }
+  
+  #logo-hire{
+    margin: 0;
+    align-self: center;
+    padding: 5px;
   }
   .menu{
     

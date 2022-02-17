@@ -56,6 +56,15 @@ main a:hover{
     color: black;
     background-color:white;
 }
+#darkmode-hire{
+    
+    color: white;
+    background-color: var(--boxColor);
+}
+#darkmode-hire:hover{
+    color: black;
+    background-color:white;
+}
 
 
 
