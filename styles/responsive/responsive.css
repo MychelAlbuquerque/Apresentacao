@@ -56,9 +56,9 @@
 
   /*container*/
   container{
-      flex-direction: column;
-      margin:auto;
-      width: 90%;
+    flex-direction: column;
+    margin:auto;
+    width: 90%;
   }
   #photo{
     margin-top: 3%;
@@ -70,7 +70,6 @@
   }
   #presentation{
     width: 100%;
-      
   }
   #presentation h1{
     margin:auto ;
@@ -100,7 +99,6 @@
   }
 
   #symbols{
-      
     margin: 1% auto 2% auto;
     width: 100%;
     max-width: 314px;

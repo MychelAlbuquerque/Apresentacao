@@ -37,16 +37,21 @@ input, textarea{
   border:none;
   box-shadow: none;
 }
-button{
+.button{
   border-radius: 10px;
   background-color: #26B9AE;
   color: white;
   border: none;
   height: 30px;
   transition: 0.7s;
+  margin-bottom: 3%;
+  cursor: pointer;
 }
-button:hover{
+.button:hover{
   background-color: #95f1eb;
   color: rgb(0, 0, 0);
   font-weight: 700;
+}
+#back{
+  background-color: var(--button);
 }
