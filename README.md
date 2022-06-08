@@ -5,7 +5,7 @@
 Esse foi um projeto com objetivo de colocar em prática o aprendizado de HTML, CSS e um pouco de Javascript. 
 Trata-se de uma página simples mas conta com apresentação, amostra de portifólio e algumas outras funções que estão detalhadas aqui abaixo. Conforme eu for avançando nos estudos irei implementando mais opções e corrigindo o que for necessário. :D
 
-Pode ser acessado através do link: https://mychelalbuquerque.github.io/mychel/
+Pode ser acessado através do link: https://mychelalbuquerque.github.io
 
 E caso tenha interesse em clonar o repositório e rodar direto na sua máquina para analisar o código e realizar testes pode seguir esse passo a passo:
 
